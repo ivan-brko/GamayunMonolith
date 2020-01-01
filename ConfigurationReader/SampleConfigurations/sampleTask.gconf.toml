@@ -1,0 +1,5 @@
+#table name is the name of the task
+[sampleTask]
+task_executor = "python3" # path to the executable to run the task
+arguments = "${CFG_FILE_PATH}"
+cron = "0/40 * * * * ?" # cron string that will describe scheduling for the task
