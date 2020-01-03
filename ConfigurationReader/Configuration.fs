@@ -1,6 +1,6 @@
 namespace ConfigurationReader
 
 type TaskConfiguration =
-    { TaskExecutor : string
-      Arguments : string
-      Cron : string }
+    { TaskExecutor: string
+      Arguments: string
+      Cron: string }

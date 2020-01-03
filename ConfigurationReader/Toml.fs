@@ -6,7 +6,7 @@ module Toml =
     let private readTomlFile (file: string) =
         let fileParentDirectory = Path.GetDirectoryName file
         let expandVariables (s: string) = s.Replace("${CFG_FILE_PATH}", fileParentDirectory)
-        let checkTableFields (table: Nett.TomlTable) =
+        let checkTableFields (table: Nett.TomlTable) = // missing check these fields are of appropriate type
             table.Keys.Contains("task_executor") && table.Keys.Contains("arguments") && table.Keys.Contains("cron")
 
         let deserializeTable (table: Nett.TomlTable) =
