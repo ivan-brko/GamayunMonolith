@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConfigurationReader", "Conf
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TaskExecutor", "TaskExecutor\TaskExecutor.fsproj", "{148A73AB-183F-43B8-A7CF-BFC5D430A43C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{D8B88499-3CC4-443D-84D1-63DC18F652ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{148A73AB-183F-43B8-A7CF-BFC5D430A43C}.Release|x64.Build.0 = Release|Any CPU
 		{148A73AB-183F-43B8-A7CF-BFC5D430A43C}.Release|x86.ActiveCfg = Release|Any CPU
 		{148A73AB-183F-43B8-A7CF-BFC5D430A43C}.Release|x86.Build.0 = Release|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Debug|x64.Build.0 = Debug|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Release|x64.ActiveCfg = Release|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Release|x64.Build.0 = Release|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{D8B88499-3CC4-443D-84D1-63DC18F652ED}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -10,6 +10,9 @@
     <ProjectReference Include="../TaskExecutor/TaskExecutor.fsproj">
       <Name>TaskExecutor.fsproj</Name>
     </ProjectReference>
+    <ProjectReference Include="../GrpcServer/GrpcServer.csproj">
+      <Name>GrpcServer.csproj</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.fs" />
